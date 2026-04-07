@@ -77,8 +77,8 @@ export default function DashboardClient({ latest }: DashboardClientProps) {
                         <FormattedDate timestamp={r.timestamp} />
                       </div>
                       <div className="grid grid-cols-2 gap-3 text-sm">
-                        <Metric label="Heart Rate" value={r.heartRate} unit="bpm" />
-                        <Metric label="SpO₂" value={r.spO2} unit="%" />
+                        {/* <Metric label="Heart Rate" value={r.heartRate} unit="bpm" />
+                        <Metric label="SpO₂" value={r.spO2} unit="%" /> */}
                         <Metric label="Emotion" value={r.emotion} className="col-span-2" />
                       </div>
                     </div>
