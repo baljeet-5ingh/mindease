@@ -103,10 +103,6 @@ For deployments (Vercel, Netlify, or self-hosted), follow your provider's Next.j
 
 - Built with Next.js, Prisma, and client-side face-detection models.
 
-## Contact
-
-If you need help presenting this project or want a demo, open an issue or contact the maintainer.
-
 ---
 
 File: [README.md](README.md)
